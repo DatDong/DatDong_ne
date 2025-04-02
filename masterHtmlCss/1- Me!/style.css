@@ -1,0 +1,38 @@
+body {
+  text-align: center;
+}
+.header {
+  background-color: rgb(252, 200, 248);
+  padding: 20px;
+  font-size: 48px;
+  font-weight: bold;
+  color: rgb(247, 40, 167);
+}
+.container {
+  background-color: #ffffcc;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.content {
+  color: inherit;
+  font-style: italic;
+}
+.content:nth-of-type(1) {
+    color: rgb(44, 44, 238);
+}
+.content:nth-of-type(2) {
+    color: rgb(168, 50, 168);
+}
+.content:nth-of-type(3) {
+    color: rgb(27, 141, 27);
+}
+hr {
+    width: 70%;
+    height: 2px;
+    background-color: rgb(156, 156, 156);
+    border: none;
+    margin: 20px auto;
+}
