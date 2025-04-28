@@ -26,6 +26,11 @@ const server = http.createServer((req, res) => {
       res.end(JSON.stringify({ result: sum }));
     });
   } else if (req.method === "GET" && req.url === "/count-sum") {
+    history.push({
+      endpoint: "/count-sum",
+      input: {},
+      output: { sumCallCount },
+    });
     res.end(JSON.stringify({ result: sumCallCount }));
   } else if (req.method === "GET" && req.url === "/current-time") {
     const currentTime = new Date().toISOString();
