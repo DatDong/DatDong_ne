@@ -1,4 +1,4 @@
-listFood = [
+const listFood = [
   [3, 1],
   [2, 4],
   [4, 5],
@@ -11,5 +11,5 @@ function calculateShoppingBudget(listFood) {
   }
   return sum;
 }
-let result = calculateShoppingBudget(listFood);
+const result = calculateShoppingBudget(listFood);
 console.log(result);
