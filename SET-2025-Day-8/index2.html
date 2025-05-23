@@ -1,76 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Day 8</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    <header>
-        <div class="header--nav__hover">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/2175px-W3Schools_logo.svg.png" alt="" style="width: 50px;">
-        </div>
-        <div class="header__nav--hover">
-            HTML
-        </div>
-        <div class="header__nav--hover">
-            CSS
-        </div>
-        <div class="header__nav--hover">
-            Javascript
-        </div>
-        <div class="header__nav--hover">
-            SQL
-        </div>
+    <link rel="stylesheet" href="../SET-2025-Day-8/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__nav header__nav--hover">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/2175px-W3Schools_logo.svg.png"
+          alt="Logo"
+          style="width: 50px"
+        />
+      </div>
+      <div class="header__nav header__nav--hover">HTML</div>
+      <div class="header__nav header__nav--hover">CSS</div>
+      <div class="header__nav header__nav--hover">JavaScript</div>
+      <div class="header__nav header__nav--hover">SQL</div>
     </header>
-    <main>
-        <div class="column">
-            <div class="Card-text">
-                <div class="card-text__content">
-                    <span>HTML</span>
-                    <p>The language for building web pages</p>
-                </div>
-                <div class="card-text--hover">
-                    <a href="">Learn HTML</a>
-                </div>
-                <div class="card-text--hover">
-                    <a href="">Video Tutorial</a>
-                </div>
-                <div class="card-text--hover">
-                    <a href="">HTML Reference</a>
-                </div>
-            </div>
+
+    <main class="main">
+      <div class="main__column">
+        <div class="card-text">
+          <div class="card-text__content">
+            <span class="card-text__title">HTML</span>
+            <p class="card-text__description">
+              The language for building web pages
+            </p>
+          </div>
+          <div class="card-text__link card-text__link--hover">
+            <a href="#">Learn HTML</a>
+          </div>
+          <div class="card-text__link card-text__link--hover">
+            <a href="#">Video Tutorial</a>
+          </div>
+          <div class="card-text__link card-text__link--hover">
+            <a href="#">HTML Reference</a>
+          </div>
         </div>
-        <div class="column">
-            <div class="card-info">
-                <div class="card-info__img">
-                    <img src="https://www.w3schools.com/html/images/13_html_images.png" alt="">
-                </div>
-                <div class="card-info__content">
-                    Learn HTML
-                    <ul>
-                        <li>HTML is the standard markup language for Web pages.</li>
-                        <li>With HTML you can create your own Website.</li>
-                        <li>HTML is easy to learn - You will enjoy it!</li>
-                    </ul>
-                </div>
-            </div>
+      </div>
+
+      <div class="main__column">
+        <div class="card-info">
+          <div class="card-info__img">
+            <img
+              src="https://www.w3schools.com/html/images/13_html_images.png"
+              alt="HTML Example"
+            />
+          </div>
+          <div class="card-info__content">
+            <h3 class="card-info__title">Learn HTML</h3>
+            <ul class="card-info__list">
+              <li class="card-info__item">
+                HTML is the standard markup language for Web pages.
+              </li>
+              <li class="card-info__item">
+                With HTML you can create your own Website.
+              </li>
+              <li class="card-info__item">
+                HTML is easy to learn - You will enjoy it!
+              </li>
+            </ul>
+          </div>
         </div>
+      </div>
     </main>
-    <footer>
-        <div class="footer__about">
-            <p>W3Schools is optimized for learning and training. Examples might be simplified to improve reading and learning.
-                Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness</p>
-                
-        </div>
-        <div class="footer-email">
-            <form>
-                <label for="email">Your email</label>
-                <input type="email" id="email" name="email" placeholder="Enter your email" required>
-                <button type="submit">Submit</button>
-            </form>
-        </div>
+
+    <footer class="footer">
+      <div class="footer__about">
+        <p>
+          W3Schools is optimized for learning and training. Examples might be
+          simplified to improve reading and learning. Tutorials, references, and
+          examples are constantly reviewed to avoid errors, but we cannot
+          warrant full correctness.
+        </p>
+      </div>
+      <div class="footer__email">
+        <form class="footer__form">
+          <label for="email" class="footer__label">Your email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            class="footer__input"
+            placeholder="Enter your email"
+            required
+          />
+          <button type="submit" class="footer__button">Submit</button>
+        </form>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
