@@ -1,0 +1,13 @@
+name: Test self-hosted runner
+
+on:
+  push:
+    branches:
+      - main  # hoặc tên nhánh bạn đang dùng
+
+jobs:
+  test-runner:
+    runs-on: self-hosted
+    steps:
+      - name: Say hello from self-hosted runner
+        run: echo "🎉 Chạy thành công trên runner riêng!"
